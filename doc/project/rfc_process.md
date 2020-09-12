@@ -23,7 +23,7 @@ This document outlines the basic structure of the RFC process, with the expectat
 * If the RFC potentially contains information that could be certification-sensitive (guidance to be shared), send a note to security@opentitan.org first for feedback.
 * The RFC is shared publicly by filing a GitHub issue and tagging with the `RFC:Proposal` label.
 * Once the author is happy that the RFC is complete, they submit it to the Technical Committee by converting the label to `RFC:TC Review`.
-* The Technical Committee will consider active RFCs in each meeting (those that have been marked ready for at least a week).
+* The Technical Committee will consider active RFCs in each meeting (those that have been marked with `RFC:TC Review` for at least a week).
   If an RFC saw large changes in the week it has been "ready" the TC may postpone judgement in order to allow more comment.
   They will decide whether to:
    * **Accept**: Indicate they are happy for this proposal to be implemented.
